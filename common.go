@@ -7,5 +7,5 @@ package python
 //  https://github.com/sbinet/go-python
 
 // #cgo pkg-config: python3-embed
-// #cgo LDFLAGS: -lpython3
+// #cgo LDFLAGS: -lpython3.10
 import "C"
